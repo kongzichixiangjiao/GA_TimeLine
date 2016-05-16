@@ -14,6 +14,7 @@
 		DCD72E941CE9698300B5016A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD72E921CE9698300B5016A /* LaunchScreen.storyboard */; };
 		DCD72E9F1CE9698300B5016A /* GA_TimeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD72E9E1CE9698300B5016A /* GA_TimeLineTests.swift */; };
 		DCD72EAA1CE9698300B5016A /* GA_TimeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD72EA91CE9698300B5016A /* GA_TimeLineUITests.swift */; };
+		DCD72EB81CE96CE500B5016A /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD72EB71CE96CE500B5016A /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DCD72EA51CE9698300B5016A /* GA_TimeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_TimeLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD72EA91CE9698300B5016A /* GA_TimeLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_TimeLineUITests.swift; sourceTree = "<group>"; };
 		DCD72EAB1CE9698300B5016A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD72EB71CE96CE500B5016A /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DCD72E891CE9698300B5016A /* AppDelegate.swift */,
 				DCD72E8B1CE9698300B5016A /* ViewController.swift */,
+				DCD72EB71CE96CE500B5016A /* MyCell.swift */,
 				DCD72E8D1CE9698300B5016A /* Main.storyboard */,
 				DCD72E901CE9698300B5016A /* Assets.xcassets */,
 				DCD72E921CE9698300B5016A /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				DCD72E8C1CE9698300B5016A /* ViewController.swift in Sources */,
 				DCD72E8A1CE9698300B5016A /* AppDelegate.swift in Sources */,
+				DCD72EB81CE96CE500B5016A /* MyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
